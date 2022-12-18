@@ -1,0 +1,13 @@
+.presentation{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 20%;
+}
+.presentationImage{
+    width:40%;
+}
+.presentationTexte{
+    width:50%;
+}

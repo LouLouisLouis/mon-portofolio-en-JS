@@ -1,0 +1,56 @@
+@media screen and (min-width:300px) and (max-width:600px){
+    body{
+        text-align: center;
+    }
+    header{
+        font-size: small;
+        border-radius: 15%;
+    }
+    #barre{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #boite{
+        width: 99%;
+        height: 98%;
+    }
+    #IIM{
+        display: none;
+    }
+
+    #invisible{
+        display: none;
+    }
+    main{
+        text-align: center;
+    }
+
+
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    body{
+        text-align: center;
+    }
+    header{
+        font-size: x-large;
+    }
+    #IIM{
+        width: 10%;
+        height: 10%;
+    }
+    #invisible{
+        display: none;
+    }
+
+}
+
+

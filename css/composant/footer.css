@@ -1,0 +1,33 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    text-align: center;
+    animation:slideNight 3s;
+    
+    
+}
+
+#LinkedIn{
+    width: 10%;
+}
+
+@keyframes slideNight{
+    from{
+        transform: translate(20%);
+        background: blue;
+    }
+    30%{
+        transform: translate(-20%);
+        background: red;
+        color: white;
+    }
+    80%{
+        transform: translate(1000%);
+        background: green;
+        color: red;
+    }
+    to{
+        transform: translate(0);
+    }
+}
